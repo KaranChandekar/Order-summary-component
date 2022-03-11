@@ -25,3 +25,13 @@ body .main-container {
   background-position: center;
   background-size: cover;
 }
+
+body .main-container .card-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: var(--very-pale-blue);
+  border-radius: 14px;
+  padding-left: 2.5em;
+  padding-right: 2.rem;
+}
