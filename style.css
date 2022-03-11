@@ -48,3 +48,8 @@ body .main-container .card-wrapper .card-body .card-text {
   font-family: inherit;
   font-size: 24px;
 }
+
+body .main-container .card-wrapper .card-body .card-text h1 {
+  color: var(--dark-blue);
+  font-size: 2rem;
+}
