@@ -15,3 +15,13 @@ body {
   font-family: "Red Hat Display", sans-serif;
   background-color: var(--pale-blue);
 }
+
+body .main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-position: center;
+  background-size: cover;
+}
