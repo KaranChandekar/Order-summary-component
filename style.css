@@ -35,3 +35,8 @@ body .main-container .card-wrapper {
   padding-left: 2.5em;
   padding-right: 2.rem;
 }
+
+body .main-container .card-wrapper img {
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+}
