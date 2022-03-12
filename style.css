@@ -6,9 +6,6 @@
   --very-pale-blue: hsl(225, 100%, 98%);
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -32,8 +29,6 @@ body .main-container .card-wrapper {
   width: 30%;
   background-color: var(--very-pale-blue);
   border-radius: 14px;
-  padding-left: 2.5em;
-  padding-right: 2.rem;
 }
 
 body .main-container .card-wrapper img {
@@ -57,4 +52,27 @@ body .main-container .card-wrapper .card-body .card-text h1 {
 body .main-container .card-wrapper .card-body .card-text p {
   color: var(--desaturated-blue);
   font-size: 1rem;
+}
+
+body .main-container .card-wrapper .card-body .card-box {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1em;
+  padding-right: 1em;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--pale-blue);
+  font-family: inherit;
+}
+
+body .main-container .card-wrapper .card-body .card-box img {
+  width: 20%;
+}
+
+body .main-container .card-wrapper .card-body .card-box p {
+  display: block;
+  padding: 0.5em;
+  padding-left: 1em;
+  width: 60%;
+  font-weight: bold;
 }
