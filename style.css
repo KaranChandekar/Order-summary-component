@@ -70,6 +70,7 @@ body .main-container .card-wrapper .card-body .card-box {
   justify-content: center;
   background-color: var(--bg-card);
   font-family: inherit;
+  border-radius: 14px;
 }
 
 body .main-container .card-wrapper .card-body .card-box img {
