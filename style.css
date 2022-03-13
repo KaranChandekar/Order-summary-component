@@ -83,3 +83,14 @@ body .main-container .card-wrapper .card-body .card-box p span {
   font-weight: lighter;
   color: var(--soft-color);
 }
+
+body .main-container .card-wrapper .card-body .card-box button {
+  display: block;
+  width: 20%;
+  background-color: transparent;
+  color: var(--bt-btn);
+  border: none;
+  font-weight: bold;
+  font-family: inherit;
+  cursor: pointer;
+}
