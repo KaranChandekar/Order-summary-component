@@ -98,3 +98,11 @@ body .main-container .card-wrapper .card-body .card-box button {
 body .main-container .card-wrapper .card-body .card-box button:hover {
   color: var(--bg-btn-active);
 }
+
+body .main-container .card-wrapper .card-body .card-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
