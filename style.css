@@ -68,7 +68,7 @@ body .main-container .card-wrapper .card-body .card-box {
   padding-right: 1em;
   align-items: center;
   justify-content: center;
-  background-color: var(--pale-blue);
+  background-color: var(--bg-card);
   font-family: inherit;
 }
 
