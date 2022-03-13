@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 :root {
-  --pale-blue: hsl(225, 100%, 94%);
-  --bright-blue: hsl(245, 75%, 52%);
-  --very-pale-blue: hsl(225, 100%, 98%);
-  --desaturated-blue: hsl(224, 23%, 55%);
-  --dark-blue: hsl(223, 47%, 23%);
+  --bg-card: #f8f9fe;
+  --bt-btn: #382ae1;
+  --bg-btn-active: #766cf1;
+  --bg-body: #e0e8ff;
+  --soft-color: #949db7;
+  --strong-color: #223253;
 }
 
 body {
   font-family: "Red Hat Display", sans-serif;
-  background-color: var(--pale-blue);
+  background-color: var(--bg-body);
 }
 
 body .main-container {
@@ -27,7 +28,7 @@ body .main-container .card-wrapper {
   display: flex;
   flex-direction: column;
   width: 30%;
-  background-color: var(--very-pale-blue);
+  background-color: #ffffff;
   border-radius: 14px;
 }
 
@@ -45,12 +46,13 @@ body .main-container .card-wrapper .card-body .card-text {
 }
 
 body .main-container .card-wrapper .card-body .card-text h1 {
-  color: var(--dark-blue);
+  color: var(--strong-color);
+  font-weight: 900;
   font-size: 2rem;
 }
 
 body .main-container .card-wrapper .card-body .card-text p {
-  color: var(--desaturated-blue);
+  color: var(--soft-color);
   font-size: 1rem;
 }
 
@@ -75,4 +77,9 @@ body .main-container .card-wrapper .card-body .card-box p {
   padding-left: 1em;
   width: 60%;
   font-weight: bold;
+}
+
+body .main-container .card-wrapper .card-body .card-box p span {
+  font-weight: lighter;
+  color: var(--soft-color);
 }
