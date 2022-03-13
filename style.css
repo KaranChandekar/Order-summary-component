@@ -99,6 +99,7 @@ body .main-container .card-wrapper .card-body .card-box button {
   font-weight: bold;
   font-family: inherit;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 body .main-container .card-wrapper .card-body .card-box button:hover {
