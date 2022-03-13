@@ -94,3 +94,7 @@ body .main-container .card-wrapper .card-body .card-box button {
   font-family: inherit;
   cursor: pointer;
 }
+
+body .main-container .card-wrapper .card-body .card-box button:hover {
+  color: var(--bg-btn-active);
+}
