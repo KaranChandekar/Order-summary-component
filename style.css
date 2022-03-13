@@ -106,3 +106,13 @@ body .main-container .card-wrapper .card-body .card-btn {
   padding-bottom: 2em;
   padding-top: 2em;
 }
+
+body .main-container .card-wrapper .card-body .card-btn #pay,
+body .main-container .card-wrapper .card-body .card-btn #cancel {
+  display: block;
+  padding: 1em;
+  font-family: inherit;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
