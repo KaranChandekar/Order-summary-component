@@ -12,6 +12,11 @@
 body {
   font-family: "Red Hat Display", sans-serif;
   background-color: var(--bg-body);
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 5rem;
 }
 
 body .main-container {
@@ -19,9 +24,6 @@ body .main-container {
   justify-content: center;
   align-items: center;
   min-height: 80vh;
-  background-image: url(./images/pattern-background-desktop.svg);
-  background-position: center;
-  background-size: cover;
 }
 
 body .main-container .card-wrapper {
