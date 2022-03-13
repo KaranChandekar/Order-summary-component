@@ -141,3 +141,13 @@ body .main-container .card-wrapper .card-body .card-btn #cancel {
 body .main-container .card-wrapper .card-body .card-btn #cancel:hover {
   color: var(--strong-color);
 }
+
+@media (max-width: 1070px) {
+  body .main-container {
+    background-image: url(./images/pattern-background-mobile.svg);
+  }
+
+  body .main-container .card-wrapper {
+    width: 90%;
+  }
+}
