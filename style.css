@@ -116,3 +116,14 @@ body .main-container .card-wrapper .card-body .card-btn #cancel {
   border: none;
   cursor: pointer;
 }
+
+body .main-container .card-wrapper .card-body .card-btn #pay {
+  color: #fff;
+  background-color: var(--bt-btn);
+  border-radius: 10px;
+  box-shadow: 0 0.5em 1em rgba(90, 80, 80, 0.5);
+}
+
+body .main-container .card-wrapper .card-body .card-btn #pay:hover {
+  background-color: var(--bg-btn-active);
+}
