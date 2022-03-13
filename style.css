@@ -37,6 +37,11 @@ body .main-container .card-wrapper img {
   border-top-left-radius: 14px;
 }
 
+body .main-container .card-wrapper {
+  padding-left: 2.5em;
+  padding-right: 2em;
+}
+
 body .main-container .card-wrapper .card-body .card-text {
   display: flex;
   flex-direction: column;
@@ -127,3 +132,4 @@ body .main-container .card-wrapper .card-body .card-btn #pay {
 body .main-container .card-wrapper .card-body .card-btn #pay:hover {
   background-color: var(--bg-btn-active);
 }
+
